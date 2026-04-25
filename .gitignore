@@ -1,0 +1,15 @@
+# ============================================================
+# FILE: .gitignore
+# This tells Git: DO NOT upload these files to GitHub
+# ============================================================
+
+# MOST IMPORTANT: never upload your API keys
+.env
+
+# Node.js folder — auto-created when you run npm install
+# No need to upload 50,000 files — others can recreate it with npm install
+node_modules/
+
+# OS junk files
+.DS_Store
+Thumbs.db
